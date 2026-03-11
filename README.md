@@ -18,6 +18,7 @@ This tool identifies the SID of the current interactive user by locating the `ex
 3.  The tool will detect the current interactive user, rewrite the registry paths, and import them.
 
 To run the script without a confirmation dialog or success message, use the silent flag `/s`
+
 ---
 
 ## Features
