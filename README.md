@@ -11,6 +11,17 @@ This tool identifies the SID of the current interactive user by locating the `ex
 
 ---
 
+## Usage
+
+1.  Place your registry settings in a file named `main.reg` in the same folder as this executable.
+2.  Run the application.
+3.  The tool will detect the current interactive user, rewrite the registry paths, and import them.
+
+## Command Line Arguments
+
+To run the script without a confirmation dialog or success message, use the silent flag `/s`
+---
+
 ## Features
 
 * **Automatic SID Detection**: Locates the active user's SID without manual input.
